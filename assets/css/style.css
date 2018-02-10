@@ -151,3 +151,26 @@ textarea {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+.portfolio-image {
+    width: 100%;
+}
+
+.img-container {
+    float: left;
+    width: 260px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    overflow: auto;
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    bottom: 20px;
+    background: #4aaaa5;
+    color: white;
+    width: 260px;
+    padding: .75em 0;
+    text-align: center;
+}
