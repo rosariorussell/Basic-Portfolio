@@ -180,7 +180,7 @@ color: #F79F1F;
 background-color: #fff;
 }
 
-.filter a {
+/* .filter a {
   color:#bdc3c7;
   border: 1px solid #bdc3c7;
   padding: 10px 18px;
@@ -201,7 +201,7 @@ background-color: #fff;
 .filter {
   text-align: center;
   width: 100%;
-}
+} */
 
 .section .heading {
   text-align: center;
@@ -212,6 +212,7 @@ background-color: #fff;
 .items li {
   display: inline-block;
   padding: 5px;
+  max-width: 24%;
 }
 
 .itemsContainer {
