@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Russell Rosario</title>
+    <title>Russell Rosario Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="css/superslides.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
 
@@ -21,6 +23,13 @@
 </head>
 
 <body>
+
+    <div class="loader">
+        <div class="inner">
+
+        </div>
+    </div>
+
     <div id="slides">
         <div class="overlay"></div>
         <div class="slides-container">
@@ -47,6 +56,35 @@
 
     </div>
 
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Russell Rosario</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About
+                        <!-- <span class="sr-only">(current)</span> -->
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#stats">Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div id="about" class="section">
 
         <div class="container">
@@ -57,14 +95,14 @@
                 </div>
 
                 <div class="col-md-7">
-                    <h4>My name is Russell Rosario</h4>
+                    <h4 class="text-center">Hi! I'm Russell Rosario</h4>
 
                     <p>
-                        Hi! I'm Russell Rosario from Miami, Florida. I have many skills: Accounting, Finance, Data Analysis, and Web Development.
+                        I live in Miami, Florida. I have many skills: Accounting, Finance, Data Analysis, and Web Development.
                     </p>
                     <p>
-                        I have degrees in biology/chemistry, accounting, and full stack web development all from the University of Miami 🙌. I've
-                        spent 8 years in the finance industry and have now found a new love for coding in JavaScript.
+                        I have degrees in biology/chemistry, accounting, and full stack web development all from the University of Miami 🙌. I worked
+                        in the finance industry for eight years and now have a new found love for coding in JavaScript.
                     </p>
                     <p>
                         My current interests are involved with running a website for JavaScript developers to find remote work at remotelyjs.com.
@@ -221,7 +259,7 @@
                             </div>
 
                             <div class="squareContent">
-                                <h2 class="counter">300000</h2>
+                                <h2 class="counter" id="largeCounter">300</h2>
                                 <h3>Social media followers</h3>
                             </div>
 
