@@ -170,6 +170,7 @@ body {
   border-radius: 2px;
 }
 
+.contactButton:focus,
 .contactButton:hover {
 text-decoration: none;
 color: #F79F1F;
@@ -277,7 +278,7 @@ background-color: #fff;
   -ms-transition: all 0.2s linear, 1s;
   -transition: all 0.2s linear, 1s;
 }
-
+.items .item:focus .imageOverlay,
 .items .item:hover .imageOverlay {
   opacity: 1;
 }
@@ -292,14 +293,17 @@ background-color: #fff;
   right: -200px;
 }
 
+.items .item:focus .openButton,
 .items .item:hover .openButton {
   left: 0px;
 }
 
+.items .item:focus .projectLink,
 .items .item:hover .projectLink {
   right: 0px;
 }
 
+.items .item:focus img,
 .items .item:hover img {
   -webkit-transform: scale(1.05, 1.05);
   -moz-transform: scale(1.05, 1.05);
@@ -341,7 +345,8 @@ background-color: #fff;
 }
 
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.navbar-brand:focus {
   color: #fff;
 }
 
@@ -376,7 +381,8 @@ background-color: #fff;
   font-size: 60px;
   padding: 0 10px;
 }
-
+#linkedinIcon:focus,
+#githubIcon:focus,
 #linkedinIcon:hover,
 #githubIcon:hover {
   font-size: 60px;
