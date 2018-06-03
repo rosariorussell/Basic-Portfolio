@@ -74,7 +74,7 @@ body {
 }
 
 .skillsSection,
-.contactSection {
+.connectSection {
   background-color: #A3CB38;
   color: #fff;
 }
@@ -376,4 +376,21 @@ background-color: #fff;
   width: 100%;
   height: 100%;
   background: url(../img/loader.gif) center center no-repeat;
+}
+
+#linkedinIcon,
+#githubIcon {
+  font-size: 60px;
+  padding: 0 10px;
+}
+
+#linkedinIcon:hover,
+#githubIcon:hover {
+  font-size: 60px;
+  color: #F79F1F;
+}
+
+#socialMediaIcons a {
+  color: #fff;
+  text-decoration: none;
 }
