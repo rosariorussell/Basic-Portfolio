@@ -12,7 +12,7 @@ $(document).ready(function () {
   })
 
   var typed = new Typed('.typed', {
-    strings: ['Accountant', 'Full Stack Web Developer', 'Data Analyst', 'Ghostwriter'],
+    strings: ['Accountant', 'JavaScript Developer', 'Data Analyst', 'Ghostwriter'],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
