@@ -239,7 +239,9 @@ background-color: #fff;
   margin: 0;
 }
 
-#largeCounter:after { content: 'k'}
+#largeCounter:after { content: 'mil'}
+
+#developerCounter:after { content: '+'}
 
 #navigation {
   background-color: #A3CB38;

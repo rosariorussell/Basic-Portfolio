@@ -12,7 +12,7 @@ $(document).ready(function () {
   })
 
   var typed = new Typed('.typed', {
-    strings: ['Accountant', 'JavaScript Developer', 'Data Analyst', 'Ghostwriter'],
+    strings: ['Accountant', 'JavaScript Developer', 'Data Analyst', 'Reddit Marketer'],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
@@ -64,8 +64,8 @@ $(document).ready(function () {
           var endVal = parseInt(element.text())
 
           element.countup(endVal)
-          if (endVal === 300) {
-            element.text('300k')
+          if (endVal === 30) {
+            element.text('30m')
           }
         })
 
